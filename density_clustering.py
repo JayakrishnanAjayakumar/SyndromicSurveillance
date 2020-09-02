@@ -22,7 +22,7 @@ import numpy as np
 import geopandas as gpd
 from dateutil import parser
 
-#accepts a csv file with headers lat,lon,date. maxdistance is the distance for a neighbor relation, minneighbors is the
+#accepts a csv file with headers lat,lon,Date. maxdistance is the distance for a neighbor relation, minneighbors is the
 #minimum number of points for a cluster,start_date is the beginning date for grouping clusters by time (if None will automatically assign the first date from the dataset)
 #end_date is the last date for grouping clusters by time. By default it is the current date
 def runClusterAnalysis(datafile_in,maxdistance=100,minneighbors=2,start_date=None,end_date=datetime.datetime.now().date()):
