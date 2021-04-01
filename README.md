@@ -4,7 +4,7 @@
 This analytical engine is in active development.
 
 ## Methodologies
-This project leverages a spatial database and two types of clustering algorithms to identify emerging  patterns of COVID-19 patients that local healthcare providers and health departments can use for rapid response and resource deployment efforts.  See https://www.researchsquare.com/article/rs-39862/v1 for a detailed discussion of the project.
+This project leverages a spatial database and two types of clustering algorithms to identify emerging  patterns of COVID-19 patients that local healthcare providers and health departments can use for rapid response and resource deployment efforts.  See https://www.nature.com/articles/s41598-020-78704-5 for a detailed discussion of the project.
 
 ## How to use the program
 Spatio-temporal analysis assumes continuous availability of consecutive cases assessed in multiple look-back time periods. Consequently, the project is only limited by source data latency and could be operationalized to provide localities near real time results.
